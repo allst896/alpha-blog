@@ -14,7 +14,11 @@ $navbar-default-bg: #b76391;
 
 #logo:hover {
   color: #fff;
-  text-decoration: none;
+  //text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
 }
 
 .center {
