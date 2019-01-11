@@ -5,10 +5,4 @@
   <%= link_to 'Subscribe', '#', class: "btn btn-primary" %>
 </div>
 
-<p>
-  This is the main page to the blog app I'm working on while learning
-  <a href="https://rubyonrails.org">Ruby on Rails</a>. I'm working through
-  <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course/">
-    The Complete Ruby on Rails Developer Course</a> on Udemy that was created
-    by Rob Percival and Mashrur Hossain.
-</p>
+<%= render 'shared/articlelist', articles: @articles %>
